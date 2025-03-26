@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: lightblue;
+}
+
+nav {
+    background-color: teal;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: darkcyan;
+    top: 100%;
+    left: 0;
+    width: 200px;
+}
+
+.submenu li {
+    padding: 10px;
+}
+
+nav ul li:hover .submenu {
+    display: block;
+}
+
+section {
+    padding: 20px;
+}
+
+.book-content {
+    display: flex;
+    align-items: center;
+}
+
+.book-content img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
